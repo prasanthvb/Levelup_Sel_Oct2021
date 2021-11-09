@@ -30,6 +30,8 @@ public class HandleNotification {
 		act.contextClick().perform();
 		//Double Click
 		//act.doubleClick().perform();
+		
+		driver.quit();
 	}
 
 }
