@@ -16,7 +16,7 @@ import org.openqa.selenium.io.FileHandler;
 public class ActionClass {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-		System.setProperty("webdriver.chrome.driver", "D:/TestLeaf/Drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:/Levelup/Drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

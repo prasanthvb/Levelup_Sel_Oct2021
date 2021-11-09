@@ -1,4 +1,4 @@
-package com.levelup.JavaSession;
+package com.levelup.JavaSession2;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
