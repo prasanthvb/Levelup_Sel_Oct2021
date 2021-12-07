@@ -1,16 +1,28 @@
 package com.automation.Base;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+
+import utility.ReadExcel;
+import utility.ReadExcelData;
 
 public class Selenium_Base {
 	
 	public WebDriver driver = null;
 	String url = "http://leaftaps.com/opentaps/control/main";
+	public String fileName =  "";
+	
+	@DataProvider(name = "LoginData")
+	public String[][] dataProvider() throws IOException {
+		String[][] exceldata = ReadExcelData.getData(fileName);
+		return exceldata;
+	}
 	
 	@BeforeMethod
 	public void initBrowser(){

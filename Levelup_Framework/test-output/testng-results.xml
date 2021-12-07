@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29290" started-at="2021-12-02T21:50:47 IST" finished-at="2021-12-02T21:51:16 IST">
+  <suite name="Default suite" duration-ms="21254" started-at="2021-12-07T21:15:03 IST" finished-at="2021-12-07T21:15:24 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29290" started-at="2021-12-02T21:50:47 IST" finished-at="2021-12-02T21:51:16 IST">
+    <test name="Default test" duration-ms="21254" started-at="2021-12-07T21:15:03 IST" finished-at="2021-12-07T21:15:24 IST">
       <class name="com.automation.Testcases.TC001">
-        <test-method status="PASS" signature="startAPP()[pri:0, instance:com.automation.Testcases.TC001@69a3d1d]" name="startAPP" is-config="true" duration-ms="9078" started-at="2021-12-02T21:50:47 IST" finished-at="2021-12-02T21:50:56 IST">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.automation.Testcases.TC001@480bdb19]" name="initBrowser" is-config="true" duration-ms="7689" started-at="2021-12-07T21:15:03 IST" finished-at="2021-12-07T21:15:10 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startAPP -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.automation.Testcases.TC001@69a3d1d]" name="loginTest" duration-ms="4511" started-at="2021-12-02T21:50:56 IST" finished-at="2021-12-02T21:51:01 IST">
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.automation.Testcases.TC001@480bdb19]" name="loginTest" duration-ms="12299" started-at="2021-12-07T21:15:10 IST" finished-at="2021-12-07T21:15:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.automation.Testcases.TC001@69a3d1d]" name="quitBrowser" is-config="true" duration-ms="2981" started-at="2021-12-02T21:51:01 IST" finished-at="2021-12-02T21:51:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-        <test-method status="PASS" signature="startAPP()[pri:0, instance:com.automation.Testcases.TC001@69a3d1d]" name="startAPP" is-config="true" duration-ms="7335" started-at="2021-12-02T21:51:04 IST" finished-at="2021-12-02T21:51:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startAPP -->
-        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.automation.Testcases.TC001@69a3d1d]" name="loginTest1" duration-ms="4047" started-at="2021-12-02T21:51:11 IST" finished-at="2021-12-02T21:51:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest1 -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.automation.Testcases.TC001@69a3d1d]" name="quitBrowser" is-config="true" duration-ms="1237" started-at="2021-12-02T21:51:15 IST" finished-at="2021-12-02T21:51:16 IST">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.automation.Testcases.TC001@480bdb19]" name="quitBrowser" is-config="true" duration-ms="1168" started-at="2021-12-07T21:15:23 IST" finished-at="2021-12-07T21:15:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

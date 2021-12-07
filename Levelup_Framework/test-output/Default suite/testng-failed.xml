@@ -5,8 +5,8 @@
     <classes>
       <class name="com.automation.Testcases.TC001">
         <methods>
-          <include name="startAPP"/>
           <include name="loginTest"/>
+          <include name="initBrowser"/>
           <include name="quitBrowser"/>
         </methods>
       </class> <!-- com.automation.Testcases.TC001 -->
